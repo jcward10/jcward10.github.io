@@ -4,6 +4,8 @@ published: true
 description: When I create a new markdown article, I don't want to have to copy and paste that markdown to multiple other blog sites. So, why not let an Octokit handle this work for me with a GitHub action?
 tags: typescript, github, opensource, actions
 cover_image: https://cdn.nanalyze.com/uploads/2018/07/automation-rpa-teaser.jpg
+devToId: 582450
+devToSlug: want-to-crosspost-to-dev-to-there-s-a-github-action-for-that-5784
 ---
 
 # If a tree falls in the woods, does it make a sound?
