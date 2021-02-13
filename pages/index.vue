@@ -16,7 +16,16 @@ export default {
   watchQuery: ['tag'],
   async asyncData({ $content, params, query }) {
     const articles = await $content('articles')
-      .only(['title', 'description', 'img', 'slug', 'tags', 'cover_image'])
+      .only([
+        'title',
+        'description',
+        'img',
+        'slug',
+        'tags',
+        'cover_image',
+        'date',
+      ])
+      .sortBy('date', 'desc')
       .where({ tags: { $contains: query.tag || '' }, published: true })
       .sortBy('createdAt', 'asc')
       .fetch()

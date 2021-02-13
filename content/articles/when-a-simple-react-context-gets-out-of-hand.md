@@ -1,11 +1,11 @@
 ---
 title: When a simple React context gets out of hand.
 published: true
+date: 2020-12-21
 description: It seemed like a good idea to start. Separate state into different "contexts". Just use `useState`. Then, `useEffect` and multiple if branches snuck in and it became a nightmare.
 tags: react, javascript, redux
 cover_image: https://content.altexsoft.com/media/2018/09/code-refactoring.jpg
 devToId: 539076
-devToSlug: when-a-simple-react-context-gets-out-of-hand-28k
 ---
 
 # TL;DR:

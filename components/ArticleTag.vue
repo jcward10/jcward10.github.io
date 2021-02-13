@@ -51,4 +51,12 @@ a::before {
   color: white;
   background-color: green;
 }
+[class='100daysofcode'] {
+  background-color: #004d4d;
+  color: #ffff7d;
+}
+.elixir {
+  background-color: #4a245d;
+  color: #fff;
+}
 </style>
