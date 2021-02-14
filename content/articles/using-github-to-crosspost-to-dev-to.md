@@ -1,7 +1,7 @@
 ---
 title: Want to crosspost to dev.to? There's a GitHub action for that.
 published: true
-date: 2021-01-25
+datePosted: '2021-01-25'
 description: When I create a new markdown article, I don't want to have to copy and paste that markdown to multiple other blog sites. So, why not let an Octokit handle this work for me with a GitHub action?
 tags: typescript, github, opensource, actions
 cover_image: https://cdn.nanalyze.com/uploads/2018/07/automation-rpa-teaser.jpg

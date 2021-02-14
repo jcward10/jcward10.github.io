@@ -1,10 +1,11 @@
 ---
 title: Round 1 Day 1
 published: true
-description: Back to school. Back to school. Learning Elixir. 
+description: Back to school. Back to school. Learning Elixir.
 tags: 100daysofcode, elixir
 cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1613181428296/AE6zOKS_p.jpeg?auto=compress
-date: 2021-02-12
+datePosted: '2021-02-12'
+devToId: 602094
 ---
 
 ## TIL

@@ -23,9 +23,9 @@ export default {
         'slug',
         'tags',
         'cover_image',
-        'date',
+        'datePosted',
       ])
-      .sortBy('date', 'desc')
+      .sortBy('datePosted', 'desc')
       .where({ tags: { $contains: query.tag || '' }, published: true })
       .sortBy('createdAt', 'asc')
       .fetch()
