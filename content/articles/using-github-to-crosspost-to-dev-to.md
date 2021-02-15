@@ -15,7 +15,7 @@ The internet is much like a forest with content and sites being like trees. Ther
 
 <br>
 
-Over the last 6 years of Software Development, I've learned a lot, but I've never shared it outside of my full-time job.  If there's not an easy way for people to find the blogs I put out, then I'm still not sharing my thoughts with others.  This is where sites like [dev.to](https://dev.to/basicbrogrammer) and [hashnode](https://hashnode.com/@basicbrogrammer) come into play. I can write the markdown for my blog posts in vim then crosspost to other blog distribution platforms. I definitely didn't want to copypasta all my content every time, so I've decided to automate this process and open-source it.
+Over the last 6 years of Software Development, I've learned a lot, but I've never shared it outside of my full-time job. If there's not an easy way for people to find the blogs I put out, then I'm still not sharing my thoughts with others. This is where sites like [dev.to](https://dev.to/basicbrogrammer) and [hashnode](https://hashnode.com/@basicbrogrammer) come into play. I can write the markdown for my blog posts in vim then crosspost to other blog distribution platforms. I definitely didn't want to copypasta all my content every time, so I've decided to automate this process and open-source it.
 
 <br>
 
