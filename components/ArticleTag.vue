@@ -59,4 +59,12 @@ a::before {
   background-color: #4a245d;
   color: #fff;
 }
+.webdev {
+  background-color: #562765;
+  color: #fff;
+}
+.productivity {
+  background-color: #2a0798;
+  color: #fff;
+}
 </style>

@@ -5,6 +5,7 @@ description: Finished https://elixirschool.com/en/lessons/basics
 tags: 100daysofcode, elixir
 cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1613355044450/ggGLGvRqH.png?auto=compress
 datePosted: '2021-02-14'
+devToId: 603919
 ---
 
 # Keep Moving Forward

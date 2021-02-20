@@ -3,19 +3,21 @@ name: CrossPost
 on:
   push:
     branches:
-    - master
+      - master
     paths:
-    - 'content/articles/*.md'
+      - 'content/articles/*.md'
 
 jobs:
   crosspost:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-    - uses: basicBrogrammer/crosspost-markdown@v0.1.2
-      with:
-        content-dir: 'content/articles/'
-        dev-to-token: ${{ secrets.DEV_TO }}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: basicBrogrammer/crosspost-markdown@v0.1.3
+        with:
+          content-dir: 'content/articles/'
+          dev-to-token: ${{ secrets.DEV_TO }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          medium-token: ${{ secrets.MEDIUM_TOKEN }}
+          medium-author-id: ${{ secrets.MEDIUM_AUTHOR_ID }}
